@@ -14,10 +14,10 @@ export default function Navbar() {
         <ul className='hidden md:flex'>
             <li className='p-4'>Home</li>
             <Link href="#company">
-                <li className='p-4 border-b border-gray-600'>Company</li>
+                <li className='p-4'>Company</li>
             </Link>
             <Link href="#price">
-                <li className='p-4 border-b border-gray-600'>Pricing</li>
+                <li className='p-4'>Pricing</li>
             </Link>
             <li className='px-4 my-4 border rounded-md bg-white text-black'>Contact</li>
         </ul>
