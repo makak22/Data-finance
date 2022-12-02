@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Analytics() {
   return (
-    <div className='w-full bg-white py-16 px-4'>
+    <div id="#company" className='w-full bg-white py-16 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
         <Image className='mx-auto my-4' src={Laptop} alt='' width={600} height={600} />
         <div className='flex flex-col justify-center'>
